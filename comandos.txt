@@ -5,3 +5,6 @@ add
 status
 commit
 git log --onelog
+git branch -d feature2
+git log --oneline --decorate --all --graph
+git checkout -b feature3
